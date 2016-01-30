@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=JsonArray()
+comment1.params=values
+comment1.target=JsonArray(java.util.ArrayList)
+comment2.params=source
+comment2.target=JsonArray\ jsonify(java.lang.String)
+comment3.params=
+comment3.target=int\ size()
+comment4.params=index
+comment4.target=Value\ get(int)
+comment5.params=source
+comment5.target=java.lang.String\ removeWhiteSpace(java.lang.String)
+comment6.params=source\ startIndex
+comment6.target=int\ endOfString(java.lang.String,\ int)
+comment7.params=source\ startIndex
+comment7.target=int\ endOfJsonObject(java.lang.String,\ int)
+comment7.text=\n\ A\ private\ helper\ method\ that\ returns\ the\ index\ of\ the\ curly\ brace\n\ \ that\ matches\ the\ one\ at\ "startIndex".\n\ @precondition\:\ source.charAt(startIndex)\ \=\=\ '{'\n\ @param\ source\ The\ source\ string\ to\ search\ through.\n\ @param\ startIndex\ The\ index\ to\ start\ searching\ at.\n\ @return\ The\ index\ of\ the\ next\ right\ curly\ brace\ ('}')\ that\ matches\n\ \ the\ given\ left\ curly\ brace\n
+comment8.params=source\ startIndex
+comment8.target=int\ endOfArray(java.lang.String,\ int)
+comment8.text=\n\ A\ private\ helper\ method\ that\ returns\ the\ index\ of\ the\ square\ bracket\n\ \ that\ matches\ the\ one\ at\ "startIndex".\n\ @precondition\:\ source.charAt(startIndex)\ \=\=\ '['\n\ @param\ source\ The\ source\ string\ to\ search\ through.\n\ @param\ startIndex\ The\ index\ to\ start\ searching\ at.\n\ @return\ The\ index\ of\ the\ next\ right\ bracket\ (']')\ that\ matches\n\ \ the\ given\ left\ bracket\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
